@@ -10,12 +10,13 @@
         div{
             height: 100px;
             width: 100px;
-            background-color: green;
+            background-color: forestgreen;
         }
 
         #t_width{
             transition: width 2s;
         }
+
         #t_width:hover{
             width: 200px;
         }
@@ -23,6 +24,7 @@
         #t_height{
             transition: height 2s;
         }
+
         #t_height:hover{
             height: 200px;
         }
@@ -30,6 +32,7 @@
         #t_both{
             transition: all 2s;
         }
+
         #t_both:hover{
             width: 200px;
             height: 200px;
@@ -38,6 +41,7 @@
         #t_rotate{
             transition: all 2s;
         }
+
         #t_rotate:hover{
             transform: rotate(180deg);
             width: 200px;
@@ -46,68 +50,66 @@
         #t_timing{
             margin-bottom: 100px;
             transition: width 4s;
-            transition-timing-function: ease-in;
+            transition-timing-function: ease-in-out;
             transition-delay: 2s;
         }
+
         #t_timing:hover{
             width: 400px;
         }
 
         #zoom{
-            background-color: white;
             width: 500px;
             height: auto;
-            border-radius: 10px;
             margin-bottom: 50px;
+            border-radius: 10px;
             overflow: hidden;
+            background-color: white;
         }
 
-        #zoom:hover img{
-            transform: scale(1.2,1.2);
-            cursor: pointer;
-        }
         #zoom img{
             max-width: 100%;
             max-height: 100%;
             border-radius: 10px;
             transition: all 2s;
+            transition-timing-function: linear;
         }
-    </style>
 
+       #zoom:hover img{
+            transform: scale(1.2,1.2);
+            cursor: pointer;
+        }
+
+
+    </style>
 </head>
 <body>
 
-<!-- transition width -->
-<p>transition width</p>
-<div id="t_width"></div>
+    <!-- transition width -->
+    <p>transition width</p>
+    <div id="t_width"></div>
 
-<!-- transition height -->
+    <!-- transition height -->
+    <p>transition height</p>
+    <div id="t_height"></div>
 
-<p>transition height</p>
-<div id="t_height"></div>
+    <!-- transition both -->
+    <p>transition both</p>
+    <div id="t_both"></div>
 
-<!-- transition both -->
+    <!-- transition rotate -->
+    <p>transition rotate</p>
+    <div id="t_rotate"></div>
 
-<p>transition both</p>
-<div id="t_both"></div>
+    <!-- transition timing -->
+    <p>transition timing</p>
+    <div id="t_timing"></div>
 
-<!-- transition rotate -->
-
-<p>transition rotate</p>
-<div id="t_rotate"></div>
-
-<!-- transition timing -->
-
-<p>transition timing</p>
-<div id="t_timing">
-</div>
-
-<!-- zoom effect -->
-<p>Zoom effect</p>
-<div id="zoom">
-    <img src="img/gallery2.jpeg">
-</div>
-
+    <!-- Zoom Effect -->
+    <p>Zoom</p>
+    <div id="zoom">
+        <img src="img/gallery2.jpeg">
+    </div>
 
 </body>
 </html>
