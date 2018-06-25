@@ -1,0 +1,11 @@
+** bootstrap animation site = scrollreveal.org // after that //    open github,    //scroll down //    then how to to animation .
+
+
+
+
+
+1=<boottrap 4 free tamplate>
+2=mdbootstrap
+3=bootstrap lightbox =    //after that//=    http://ashleydw.github.io/lightbox/    afterthat  =//https://cdnjs.com/libraries/ekko-lightbox
+4=https://www.w3resource.com/icon/font-awesome/brand-icons/maxcdn.php
+5=getbootstrap.com
