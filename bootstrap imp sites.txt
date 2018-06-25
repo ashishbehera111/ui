@@ -9,3 +9,5 @@
 3=bootstrap lightbox =    //after that//=    http://ashleydw.github.io/lightbox/    afterthat  =//https://cdnjs.com/libraries/ekko-lightbox
 4=https://www.w3resource.com/icon/font-awesome/brand-icons/maxcdn.php
 5=getbootstrap.com
+
+new site=https://fontawesome.bootstrapcheatsheets.com/
