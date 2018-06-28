@@ -1,4 +1,4 @@
-** bootstrap animation site = scrollreveal.org // after that //    open github,    //scroll down //    then how to to animation .
+** bootstrap animation site = scrollreveal.js // after that //    open github,    //scroll down //    then how to to animation .
 
 
 
