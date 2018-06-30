@@ -11,7 +11,7 @@
 5=getbootstrap.com
 
 new site=https://fontawesome.bootstrapcheatsheets.com/
-
+new site="https://fontawesome.com/icons?d=gallery"
 
 
 <HOW TO USE GET BOOTSTRAP EXAMPLE={
