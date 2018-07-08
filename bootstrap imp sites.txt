@@ -12,7 +12,7 @@
 
 new site=https://fontawesome.bootstrapcheatsheets.com/
 new site="https://fontawesome.com/icons?d=gallery"
-
+bootstrap foant awesome site sir using in bootstrap file={https://github.com/FortAwesome/Font-Awesome}={https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=svg-with-js}
 
 <HOW TO USE GET BOOTSTRAP EXAMPLE={
 
