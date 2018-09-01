@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #one{
+        background-color: aquamarine;
+        border:1px solid black;
+        width: 200px;
+        height:200px;
+        text-align: center;
+    }
+    
+    </style>
+    <script>
+        function movemouse(e){
+axis1=document.getElementById("x-axis")
+axisy=document.getElementById("Y-axis")
+axis1.innerHTML=e.clientX
+axisy.innerHTML=e.clientY
+        }
+    
+    
+    </script>
+</head>
+<body >
+    <div id="one" onmousemove="movemouse(event)">
+    <h1 id="x-axis">0</h1>
+    <h2 id="Y-axis">0</h2>
+</div>
+</body>
+</html>
