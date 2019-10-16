@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .navbar{
+        background-color:lightgrey;
+        display:flex;
+        justify-content: flex-end;
+
+    }
+    .navbar a{
+        text-decoration:none;
+        padding:15px 25px;
+        color:white;
+        text-transform:uppercase;
+            }
+            .navbar a:hover{
+                background-color:mediumseagreen
+            }
+            #toggle{
+                display:none;
+            }
+            .menu{
+                display:flex;
+                justify-content:flex-end;
+                background-color:lightgrey;
+                padding:15px;
+                display:none;
+            }
+            @media only screen and (max-width:700px){
+                .navbar{
+                    flex-direction:column;
+                    display:none;
+                    text-align:center;
+                }
+                #toggle:checked + .navbar{
+                 display:flex;
+                }
+                .menu{
+                    display:flex;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <label for="toggle">
+            &#9776;
+        </label>
+    </div>
+    <input type="checkbox" id="toggle">
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">contact</a>
+        <a href="#">about</a>
+        <a href="#">Details</a>
+    </div>
+</body>
+</html>
